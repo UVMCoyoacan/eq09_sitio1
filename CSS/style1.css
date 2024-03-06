@@ -1,0 +1,243 @@
+/* Estilos para el cuerpo de la pÃ¡gina */
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700;800;900&display=swap");
+
+html{
+ scroll-behavior: smooth;
+
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-family: 'League Spartan', sans-serif;
+    background-color: rgb(253, 250, 246);
+   
+}
+
+/* Estilos para el encabezado */
+header {
+    background-color: #0F2ECC;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 30px; 
+    
+    
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+main {
+    padding: 85px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+/* Estilos para el pie de pÃ¡gina */
+footer {
+    background-color: #5C638A;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Estilos para pagina INICIOY */
+
+
+/* Estilos para la foto en el currÃ­culum */
+.foto-cv {
+    width: 2cm; /* Ancho de la foto */
+    height: 1cm; /* Largo de la foto */
+    border: 1px solid #ccc; /* Borde de la foto (opcional) */
+    border-radius: 50%; /* Hacer la foto circular (opcional) */
+    overflow: hidden; /* Para recortar cualquier parte de la foto que se extienda mÃ¡s allÃ¡ del contenedor */
+    display: flex; /* Utilizar display flex */
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+}
+
+.foto-cv img {
+    max-width: 100%; /* Asegurar que la imagen no exceda el tamaÃ±o del contenedor */
+    max-height: 100%; /* Asegurar que la imagen no exceda el tamaÃ±o del contenedor */
+    object-fit: cover; /* Escalar la imagen para llenar el contenedor manteniendo la relaciÃ³n de aspecto */
+}
+
+#texto-contenido {
+    float: left; /* Asegura que el texto estÃ© a la izquierda */
+    width: 60%; /* Ancho del texto */
+    padding-right: 20px; /* Espacio a la derecha del texto para separarlo de la imagen */
+}
+
+#imagen-contenido {
+    float: right; /* La imagen flota a la derecha */
+    width: 40%; /* Ancho de la imagen */
+}
+
+/* Estilo para la imagen dentro de #imagen-contenido */
+#imagen-contenido img {
+    width: 100%; /* Para asegurar que la imagen se ajuste correctamente dentro del contenedor */
+    height: auto; /* Para mantener la relaciÃ³n de aspecto de la imagen */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Agrega una sombra a la imagen */
+}
+
+#JR { 
+font-size: 50px;
+}
+
+#fecha {
+    position: absolute;
+    right: 0;
+    margin-right: 20px; /* Ajusta el margen derecho segÃºn sea necesario */
+}
+
+/* Estilos para vision y eso */
+#txt1 {
+
+    width: 4cm; /* Ancho del contenedor */
+    padding: 20px; /* Espacio alrededor del contenido */
+    background-color: #f0f0f0; /* Color de fondo opcional */
+    border: 2px solid #ccc; /* Borde opcional */
+    border-radius: 5px; /* Bordes redondeados */
+    text-align: justify; /* JustificaciÃ³n del texto */
+    position: absolute; /* PosiciÃ³n absoluta */
+    left: 2cm; /* Posiciona el contenedor 2cm desde el borde izquierdo */
+    top: 8cm; /* Mueve el contenedor hacia abajo 2cm desde la parte superior */
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Sombra gris */
+}
+
+#txt2 {
+    position: absolute;
+    left: 3.5cm; /* Posiciona el contenedor 2cm desde el borde izquierdo */
+    top: 7cm; /* Mueve el contenedor hacia abajo 2cm desde la parte superior */
+    text-align: justify; /* JustificaciÃ³n del texto */
+}
+
+
+#txt3 {
+
+    position: absolute;
+    left: 12.5cm; /* Posiciona el contenedor 2cm desde el borde izquierdo */
+    top: 7cm; /* Mueve el contenedor hacia abajo 2cm desde la parte superior */
+    text-align: justify; /* JustificaciÃ³n del texto */
+ 
+}
+
+#txt4 {
+   
+    width: 4cm; /* Ancho del contenedor */
+    padding: 20px; /* Espacio alrededor del contenido */
+    background-color: #f0f0f0; /* Color de fondo opcional */
+    border: 2px solid #ccc; /* Borde opcional */
+    border-radius: 5px; /* Bordes redondeados */
+    text-align: justify; /* JustificaciÃ³n del texto */
+    position: absolute; /* PosiciÃ³n absoluta */
+    left: 11cm; /* Posiciona el contenedor 2cm desde el borde izquierdo */
+    top: 8cm; /* Mueve el contenedor hacia abajo 2cm desde la parte superior */
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Sombra gris */
+}
+
+#txt5 {
+
+    position: absolute;
+    left: 21.5cm; /* Posiciona el contenedor 2cm desde el borde izquierdo */
+    top: 7cm; /* Mueve el contenedor hacia abajo 2cm desde la parte superior */
+    text-align: justify; /* JustificaciÃ³n del texto */
+}
+
+#txt6 {
+   
+    width: 4cm; /* Ancho del contenedor */
+    padding: 20px; /* Espacio alrededor del contenido */
+    background-color: #f0f0f0; /* Color de fondo opcional */
+    border: 2px solid #ccc; /* Borde con un grosor de 2px y color gris */
+    border-radius: 5px; /* Bordes redondeados */
+    text-align: justify; /* JustificaciÃ³n del texto */
+    position: absolute; /* PosiciÃ³n absoluta */
+    left: 20cm; /* Posiciona el contenedor 2cm desde el borde izquierdo */
+    top: 8cm; /* Mueve el contenedor hacia abajo 2cm desde la parte superior */
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Sombra gris */
+}
+
+
+#SEV {
+
+    margin-top: 777px; /* Mueve el elemento 50px hacia abajo desde su posiciÃ³n original */
+    margin-left: 20px; /* Mueve el elemento 20px hacia la derecha desde su posiciÃ³n original */
+    margin-bottom: 80px; /* Espacio entre cada elemento de la lista */
+}
+
+
+#puntos {
+
+
+ 
+    padding: 10px; /* Espacio alrededor del contenido del li */
+    margin-bottom: 10px; /* Espacio entre cada elemento de la lista */
+    color: #333; /* Color del texto */
+    font-size: 16px; /* TamaÃ±o del texto */
+    font-weight: bold; /* Grosor del texto */
+    text-decoration: none; /* DecoraciÃ³n del texto (por ejemplo, para quitar subrayado en enlaces) */
+
+}
+
+#foto_contacto {
+
+    margin-top: -6.5cm; 
+    margin-left: 13cm; /* Mueve el elemento 20px hacia la derecha desde su posiciÃ³n original */
+    margin-bottom: 80px; /* Espacio entre cada elemento de la lista */
+    float: center; /* La imagen flota a la derecha */
+    height: auto; /* Para mantener la relaciÃ³n de aspecto de la imagen */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Agrega una sombra a la imagen */
+
+}
+
+#SEV2 {
+
+    margin-top: -8.9cm; /* Mueve el elemento 50px hacia abajo desde su posiciÃ³n original */
+    margin-left: 20px; /* Mueve el elemento 20px hacia la derecha desde su posiciÃ³n original */
+    margin-bottom: 80px; /* Espacio entre cada elemento de la lista */
+    text-align: right;
+
+
+}
+#puntos2 {
+
+    padding: 10px; /* Espacio alrededor del contenido del li */
+    margin-bottom: 10px; /* Espacio entre cada elemento de la lista */
+    color: #333; /* Color del texto */
+    font-size: 16px; /* TamaÃ±o del texto */
+    font-weight: bold; /* Grosor del texto */
+    text-decoration: none; /* DecoraciÃ³n del texto (por ejemplo, para quitar subrayado en enlaces) */
+    text-align: right;
+    
+}
+
+
+
+
